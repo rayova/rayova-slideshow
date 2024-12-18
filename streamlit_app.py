@@ -50,7 +50,7 @@ if uploaded_files:
     transition_frames = st.slider("Number of transition frames",
                                 min_value=0,
                                 max_value=30,
-                                value=10)
+                                value=0)
     
     if st.button("Create Animation"):
         if len(images) > 1:
