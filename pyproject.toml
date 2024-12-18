@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "rayova-slideshow"
+version = "0.1.0"
+description = ""
+authors = ["Josh Kellendonk <joshkellendonk@gmail.com>"]
+readme = "README.md"
+packages = [{include = "rayova_slideshow"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.41.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
